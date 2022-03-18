@@ -58,8 +58,8 @@ form button{
 }
 .sci i{
     font-size: 25px;
-    margin: 5px 10px;
     cursor: pointer;
+    margin: 5px 10px;
 }
 @media (max-width: 228px){
     .sci i{
