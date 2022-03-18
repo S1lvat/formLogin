@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap');
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+body{
+    width: 100vw; height: 100vh;
+    background: linear-gradient(45deg, #001e67, #0857ae, #001e67, #043b8b );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px; height: 320px;
+    overflow: hidden;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 0 10px #333;
+    background: linear-gradient(45deg, #fff, #999);
+    margin: 20px;
+}
+.table form{
+    position: relative;
+    height: 200px; width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form label{
+    padding: 10px;
+    font-size: 15pt;
+}
+form input{
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 4px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+}
+form button{
+    padding: 5px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.sci{
+    padding: 5px;
+}
+.sci i{
+    font-size: 25px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+@media (max-width: 228px){
+    .sci i{
+        font-size: 8vw;
+    }
+}
